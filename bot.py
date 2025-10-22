@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- CONFIGURATION (Reads from your .env file) ---
-DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+DISCORD_TOKEN = MTQzMDUyOTUxNjA0Mzc2NzkwOA.GNW2Q6.EHtOrbO1JInnbRiRTsKIF6PKyxjUaL-2u1NJOs
 GITHUB_SECRET = os.getenv('GITHUB_WEBHOOK_SECRET')
 LEADERBOARD_CHANNEL_ID = int(os.getenv('LEADERBOARD_CHANNEL_ID'))
 GITHUB_REPO = "LavanyaSharma232/EduEase" # IMPORTANT: Change this!
@@ -173,4 +173,5 @@ if __name__ == '__main__':
     flask_thread.start()
     
     # Run the Discord bot
+
     bot.run(DISCORD_TOKEN)
