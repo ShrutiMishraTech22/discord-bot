@@ -3,8 +3,9 @@
 #  The Shopping List: requirements.txt
 # ===================================================================================
 #
-discord.py
-Flask
-requests
-python-dotenv
+discord.py>=2.0.0
+Flask>=2.3.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
 gunicorn
